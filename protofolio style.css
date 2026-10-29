@@ -1,0 +1,996 @@
+
+
+
+/* Section 1 IS Start*/
+.section1{
+    background-color: rgb(14, 19, 24);
+    width: 100%;
+    height: 665px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.half1,.half2{
+    width: 50%;
+}
+.half1{
+
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half1 h3{
+    background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.2),
+        rgba(237, 72, 100,0.1)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 40px;
+    top: 40px;
+    font-family: Algerian;
+
+}
+.half1 h1{
+     background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.8),
+        rgba(237, 72, 100,0.7)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    font-size: 60px;
+    font-family: broadway;}
+
+.half1 p{
+    color: #8393ff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Bernardo Moda Contrast;
+    letter-spacing: 5px;
+}
+.half1 a{
+    padding: 8px 30px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.half1 a:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255);
+    transition: all ease 0.5s;
+    outline:none;
+}
+
+.half2{
+    padding-right: 160px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* section 2 Start */
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+  color: #8393ff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:Algerian;;
+}
+.text2 h1{
+    color: #8393ff;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: broadway;
+}
+.text2 p{
+    
+    background: linear-gradient(
+        90deg,
+        purple,
+        rgba(51, 51, 187,0.9),
+        rgba(237, 72, 100,0.9)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+    font-size:25px;
+    font-family:Bernardo Moda Contrast;
+    width: 80%;
+    letter-spacing: 4px;
+}
+.text2 a{
+    padding: 8px 30px;
+    background-color: #8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8393ff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.text2 a:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255);
+    transition: all ease 0.5s;
+    outline:none;
+}
+
+/* Section 3 start */
+.section3{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section3 .Head{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Urban Jungle;
+    letter-spacing: 4px;
+    color: #8393ff;
+}
+
+.section3 p{
+    width: 430px;
+    color: white;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: broadway;
+}
+.service{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-top: 50px; 
+}
+
+.ser2{
+    padding-top: 60px;
+}
+
+.service .ser1,
+.service .ser2{
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.ser1 div,.ser2 div{
+    width: 32%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.service i{
+    font-size: 30px;
+    color: #8393ff;
+}
+.service h1{
+    color: #8393ff;
+    font-family: Urban Jungle;
+    letter-spacing: 4px;
+}
+.service p{
+    color: #8393ff;
+    font-family: Urban Jungle;
+    letter-spacing: 3px;
+}
+.ser1 div:hover{
+    box-shadow: 2px 2px 30px rgba(0, 213, 255, 0.8);
+    color: #fff;
+    background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.8),
+        rgba(237, 72, 100,0.7)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.ser2 div:hover{
+    box-shadow: 2px 2px 30px rgba(0, 213, 255, 0.8);
+    color: #fff;
+    background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.8),
+        rgba(237, 72, 100,0.7)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+/* Section 4 */
+.section4{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#7f97ff,#62bdfc);
+    margin-top: 80px;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.section4 h1{
+    font-size: 45px;
+    font-family: broadway;
+}
+.section4 h1,
+.section4 p{
+    text-align: center;
+
+}
+/* Section 5 Start */
+
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text10{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.section5 .head2{
+    font-size: 45px;
+    color: #7f97ff;
+    font-family: broadway;
+}
+.section5 p{
+   font-size: 30px;
+   color: whitesmoke;
+   font-family: Bernardo Moda Contrast;
+   margin-top: -20px;
+   margin-bottom: 30px;
+
+}
+.section5 .nav20{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    right: 500px;
+}
+.section5 ul{
+    list-style: none;
+}
+.section5 .nav20 ul li{
+    float: left;
+    padding-right: 35px;
+    padding-top: 25px;
+}
+.section5 .nav20 ul li a{
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    font-family: Urban Jungle;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.section5 .nav20 ul li a:first-child{
+    color: wheat;
+}
+.section5 .nav20 ul li a:hover{
+    color: #7f97ff;
+}
+
+.section5 .img10{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    margin-bottom:50px ;
+}
+.section5 .img10 div{
+    width: 340px;
+    height: 340px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.section5 .img10 h1{
+    font-size: 20px;
+    font-family: broadway;
+    letter-spacing: 3px;
+    color: #7f97ff;
+}
+.section5 .img10 p{
+    color: wheat;
+    font-size: 16px;
+    font-family: Urban Jungle;
+    letter-spacing: 5px;
+    line-height: 3;
+    
+}
+.section5 figure{
+    background:linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    width: 340px;
+    height:340px ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img{
+  opacity: 0.3;
+  transition: 0.4s;
+
+}
+/*Section 6 starts*/
+
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+
+}
+.section6 .text30{
+    text-align: center;
+    padding: 2% 0;
+
+
+}
+.section6 .text30 h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Urban Jungle;
+    letter-spacing: 5px;
+    color: #8490ff;
+    padding-top: 15px;
+}
+.section6 .text30 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: broadway;
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 530px;
+    background-color: #8490ff;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    box-shadow: 2px 2px 30px rgba(0, 213, 255, 0.6);
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+    font-family: broadway;
+    letter-spacing: 3px;
+}
+.section6 .card1 h1 span{
+    width: 70px;
+   height: 70px;
+   border: 10px solid rgba(237, 227, 227, 0.829);
+   border-radius: 50%;
+   padding: 10px;
+
+}
+
+.section6 .card1 .price{
+    font-size: 30px;
+}
+.section6 .card1 a{
+    background-color: #8293ff;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.section6 .card1:hover a{
+    background-color: rgba(0,0,0,0.9);
+    color: rgba(0,0,0,0.9);
+  background-color: white;
+  
+}
+.section6 .card1:hover{
+    background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.8),
+        rgba(237, 72, 100,0.7)
+    );
+    color: #fff;
+    transition: all  0.3 ease 0s;
+    transform: scale(1.1);
+    border: 1px solid rgba(130,147,255,0.5);
+    box-shadow: 2px 2px 30px rgba(0, 213, 255, 0.3);
+}
+/*Section 7 start */
+.section7{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 300px;
+}
+.section7 h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Urban Jungle;
+    letter-spacing: 4px;
+    color: #8293ff;
+}
+.section7 p{
+    width: 430px;
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: broadway;
+}
+.photos{
+    width: 85%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;   
+}
+.photo1{
+    margin-top: 100px;
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 213, 255, 0.4);
+}
+.photos :hover h3,
+.photos :hover  .photo2 .AAAA{
+    color: #7f97ff;
+    transition: all ease 0.6s;
+    font-size: 25px;
+}
+.photos :hover img{
+    transform: scale(1.1);
+    transition: all ease-in 0.3s;
+}
+.photos .photo2{
+    padding-top: 0px;
+}
+.photos .photo1,
+.photos .photo2{
+    width: 100%;
+    overflow: hidden;
+}
+.photo1 div{
+    height: 110px;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.photos h3{
+    font-size: 20px;
+    letter-spacing: 4px;
+    background: linear-gradient(
+        45deg,
+        purple,
+        rgba(51, 51, 187,0.8),
+        rgba(237, 72, 100,0.7)
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.photos .photo2 img{
+    width:40px ;
+    height:20px;
+    margin-top: 40px;
+}
+
+
+/* Footer Satrt*/
+footer{
+    background-color: rgb(4,9,30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: #f9f9ff;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+ color: rgba(255,255,255,0.5);
+}
+footer .foot .foot1 p a{
+    font-size: 25px;
+    font-family: broadway;
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 50px 10px 10px;
+}
+footer .foot .foot1 .Enter{
+    font-size: 20px;
+    color: white;
+    background-color: #8293ff;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    padding: 2px 6px;
+    color: #f9f9ff;
+    
+}
+footer .foot .foot1 i:hover{
+    color: #00c8ff;
+}
+
+/* Mobile */
+@media  (max-width:767px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+         left: 10px;
+         transition: all 0.4s;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+    }
+   .section1{
+    width: 100%;
+    height: auto;
+    display: block;
+   }
+  .section1 .half1{
+    margin: auto;
+    padding: 0;
+  }
+  .section1 .half1 h3{
+    font-size: 15px;
+
+  }
+  .section1 .half1 h1{
+    font-size: 30px;
+  }
+  .section1 .half2 img{
+    margin-left: 90px;
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+  .section2{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    top: 150px;
+    position: relative;
+  }
+  .section2 .img2 img{ 
+     position: relative;
+     right: 120px;
+  }
+  .section2 div{
+    width: 100%;
+  }
+  .section2 .text2{
+    position: relative;
+    left: 15px;
+    text-align: center !important;
+
+  }
+  .section2 .text2 h3{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .section2 .text2 h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .section2 .text2 p{
+    font-size: 15px;
+    color: rgba(0,0,0,0.7);
+    margin-left: 50px !important;
+  }
+  .section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+  }
+  .ser1 div, .ser2 div{
+     clear: left;
+     position: relative;
+     width: 100%;
+     height: auto; 
+  }
+  .section4{
+    width: 100%;
+    height:120vh;
+    position: relative;
+    top: 250px;
+  }
+  .section4 div{
+    clear: left;
+    
+  }
+  .section5{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    top: 300px;
+  }
+.section5 .nav20{
+        position: static; 
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section5 .nav20 ul li{
+        padding-right: 25px;
+    }
+    .section6{
+     width: 100%;
+    height:100vh;
+    position: relative;
+    top: 300px;
+    }
+    .section6 .text30 p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .section6 .card{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        left: 90px;
+        margin-top: 20px;
+    }
+    .section6 .card1{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section7{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 120em;
+    }
+    .section7 .photos{
+        display: block;
+        width: 100%;
+    }
+
+footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 180em;
+}  
+footer .foot{
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+         left: 10px;
+         transition: all 0.4s;
+    }
+    header .nav ul li a{
+        font-size: 25px;
+    }
+    .section1{
+        width: 100%;
+        height: auto;
+    }
+    .section2{
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    position: relative;
+  }
+  .section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+  }
+  .ser1 div, .ser2 div{
+    width: 100%;
+  }
+  .section4{
+    width: 100%;
+   position: relative;
+   top: 80px;
+  }
+  .section4 div{
+    margin: 0 auto;
+    left: 120px;
+    
+  }
+  .section5{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    top: 100px;
+  }
+  .section5 .nav20{
+        position: static; 
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section5 .nav20 ul li{
+        padding-right: 25px;
+    }
+    .section6{
+     width: 100%;
+    height:100vh;
+    position: relative;
+    top: 100px;
+    }
+     .section6 .card{
+        width: 80%;
+        height: 100vh;
+        position: relative;
+        left: 20px;
+        margin-top: 20px;
+    }
+    .section6 .card1{
+        margin-left: 5px;
+    }
+    .section7{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 1em;
+        
+    }
+    .section7 .photos{
+        display: block;
+        width: 100%;
+    }
+    footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 70em;
+}  
+footer .foot{
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+}
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1350px) {
+ 
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+         left: 10px;
+         transition: all 0.4s;
+    }
+    header .nav ul li a{
+        font-size: 30px;
+    }
+    .section1{
+    width: 100%;
+   }
+   .section2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .section3{
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  .ser1 p, .ser2 p{
+    width: 85%;
+    height: 80px;
+    bottom: 40px; 
+  }
+  .section4{
+    width: 100%;
+    position: relative;
+    top: 25px;
+}
+.section4 div{
+    margin-left: -30px;
+}
+.section5{
+    width: 100%;
+    height:100vh;
+    position: relative;
+    top: 100px;
+  }
+  .section5 .nav20{
+        position: static; 
+        right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .section6{
+     width: 100%;
+    height:100vh;
+    position: relative;
+    top: 100px;
+    }
+    .section6 .text30 p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .section6 .card{
+        width: 95%;
+        height: 100vh;
+        position: relative;
+        margin: 0 90px;
+        margin-top: 20px;
+    }
+    .section6 .card1{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .section7{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 1rem;
+       
+    }
+    .section7 .photos{
+        display: block;
+        width: 100%;
+    }
+    footer{
+    width: 100%;
+    position: relative;
+    top: 70em;
+} 
+footer .foot{
+    
+    position: relative;
+    top: 100px;
+} 
+}
